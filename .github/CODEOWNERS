@@ -1,0 +1,37 @@
+# CODEOWNERS file for storage-server-507
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-research @Armor-test/grp-search @Armor-test/unit-cloud
+
+# Directory ownership
+/pages/ @Armor-test/team-reporting @Armor-test/squad-cloud
+/dist/ @Armor-test/unit-test @Armor-test/dept-reliability @Armor-test/squad-research
+/internal/ @Armor-test/squad-reporting @Armor-test/squad-cache @Armor-test/team-logging
+/build/ @Armor-test/squad-apps @Armor-test/squad-cloud @Armor-test/team-logging
+/modules/ @Armor-test/unit-devops @Armor-test/squad-reporting @Armor-test/squad-database
+/components/ @Armor-test/unit-test @Armor-test/squad-cloud
+/test/ @Armor-test/dept-security @Armor-test/team-logging @Armor-test/dept-reporting
+/web/ @Armor-test/grp-storage @Armor-test/squad-tooling
+/lib/ @Armor-test/dept-automation @Armor-test/squad-mobile
+/ui/ @Armor-test/squad-ux @Armor-test/squad-research
+/services/ @Armor-test/grp-integration @Armor-test/squad-research
+/static/ @Armor-test/grp-payments @Armor-test/unit-design
+/helpers/ @Armor-test/dept-automation @Armor-test/team-security
+
+# File type ownership
+*.css @Armor-test/squad-database @Armor-test/team-logging
+*.swift @Armor-test/squad-cloud @Armor-test/grp-payments
+*.graphql @Armor-test/grp-ui @Armor-test/squad-frontend
+*.c @Armor-test/squad-frontend @Armor-test/squad-database
+*.php @Armor-test/squad-mobile @Armor-test/unit-test
+*.ini @Armor-test/grp-payments @Armor-test/team-research
+*.h @Armor-test/dept-reliability @Armor-test/grp-payments
+*.gradle @Armor-test/dept-api @Armor-test/squad-api
+*.tf @Armor-test/squad-cache @Armor-test/dept-notifications @Armor-test/team-research
+*.js @Armor-test/dept-data @Armor-test/dept-reliability @Armor-test/team-core
+*.lock @Armor-test/squad-search @Armor-test/unit-governance
+*.toml @Armor-test/team-reporting @Armor-test/squad-reporting @Armor-test/grp-integration
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
